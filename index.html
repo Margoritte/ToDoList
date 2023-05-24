@@ -7,15 +7,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="css/style.css" />
+        <script src ="main.js"></script>
     </head>
     <body>
+        <script> 
+        console.log ("Hola planeta")
+        </script>
         <div class="container">
-            <h1> Lista de tareas </h1>
+            <h1 id="TITULO"> Lista de tareas </h1>
             <div>
                 <input type="text" placeholder ="Escribir tarea">/
-                <button class="input-btn" type="button">Añadir</button>
+                <button onclick="Apretar()" class="input-btn" type="button">Añadir</button>
             </div>
-            <ul>
+            <ul class>
                 <li>Agregar los estilos de mi proyecto</li>
                 <li>Implementar las funcionalidades de la lista</li>
             </ul>
