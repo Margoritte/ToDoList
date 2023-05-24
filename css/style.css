@@ -5,7 +5,7 @@ h1{
     
 }
 body{
-    background-image: url("../img/image1.jpg");
+    background-image: url("../img/imagen2.jpg");
 }
 
 .container{
@@ -16,13 +16,13 @@ body{
 }
 
 h1{
-    color: rosybrown;
+    color: rgb(225, 238, 109);
 
 }
 
 .input-btn{
-    background-color:#333;
-    color: white;
+    background-color:#d15959;
+    color: rgb(219, 240, 104);
     border-radius: 3px;
     cursor: pointer
 }

@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="css/style.css" />
-        <script src ="main.js"></script>
+        <script src ="js/main.js"></script>
     </head>
     <body>
         <script> 
@@ -16,12 +16,22 @@
         <div class="container">
             <h1 id="TITULO"> Lista de tareas </h1>
             <div>
-                <input type="text" placeholder ="Escribir tarea">/
-                <button onclick="Apretar()" class="input-btn" type="button">Añadir</button>
+                <input 
+                id="nuevoElemento"
+                type="text" 
+                placeholder ="Escribir tarea"
+                class="task-input"
+                >/
+                <button onclick="AgregarTarea()" class="input-btn" type="button">
+                    Añadir Tarea
+                </button>
             </div>
-            <ul class>
-                <li>Agregar los estilos de mi proyecto</li>
-                <li>Implementar las funcionalidades de la lista</li>
+            <ul id="contenedor" class="task-list">
+                <li>
+                    Tarea 1
+                    <button>BORRAR</button>
+                    <button>LISTO</button>
+                </li>
             </ul>
         </div>
     </body>
